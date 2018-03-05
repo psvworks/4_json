@@ -1,10 +1,11 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт обрабатывает файл с произвольными данными в формате JSON и выводит его содержимое в консоль в удобном для чтения виде: добавляет переносы строк, отступы слева и пробелы.
 
 # Quickstart
 
-[TODO]
+'''python
+'''
 
 Example of script launch on Linux, Python 3.5:
 
