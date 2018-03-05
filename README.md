@@ -4,8 +4,14 @@
 
 # Quickstart
 
-'''python
-'''
+```python
+from pprint_json.py import load_data()
+from pprint_json.py import pprint_json()
+...
+if __name__ = "main":
+    file = 'filename.json'
+    pprint_json(load_data(file))
+```
 
 Example of script launch on Linux, Python 3.5:
 
