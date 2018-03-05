@@ -18,7 +18,24 @@ Example of script launch on Linux, Python 3.5:
 ```bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+{
+    "menu": "",
+    "commands": [
+        {
+            "title": "New",
+            "action": "CreateDocument"
+        },
+        {
+            "title": "Open",
+            "action": "OpenDocument"
+        },
+        {
+            "title": "Close",
+            "action": "CloseDocument"
+        }
+    ]
+}
+
 
 ```
 
