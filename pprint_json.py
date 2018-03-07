@@ -2,16 +2,16 @@ import json
 import sys
 
 
-def load_data(filepath):
-    with open(filepath, encoding='utf8') as json_data:
-        return json.loads(json_data.read())
+def load_json(json_file):
+    with open(json_file, encoding='utf8') as jdata:
+        return json.loads(jdata.read())
 
 
-def pretty_print_json(data):
-    j = json.dumps(data, indent=4, ensure_ascii=False)
+def print_json(json_data):
+    j = json.dumps(json_data, indent=4, ensure_ascii=False)
     print(j)
     return j
 
 
 if __name__ == '__main__':
-    pretty_print_json(load_data(sys.argv[1]))
+    print_json(load_json(sys.argv[1]))
