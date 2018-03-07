@@ -1,6 +1,6 @@
 # Prettify JSON
 
-Скрипт обрабатывает файл с произвольными данными в формате JSON и выводит его содержимое в консоль в удобном для чтения виде: добавляет переносы строк, отступы слева и пробелы.
+The script processes the file with arbitrary data in JSON format and displays its content in the console in an easy-to-read form: adds line breaks, left indents and spaces.
 
 # Quickstart
 
